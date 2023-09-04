@@ -1,0 +1,14 @@
+{
+    "name": "playground",
+    "main": "index.ts",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "frida-compile -o scripts/_index.js -w scripts/index.ts"
+    },
+    "devDependencies": {
+        "@types/frida-gum": "^18.3.1",
+        "frida-compile": "^16.2.2"
+    }
+}

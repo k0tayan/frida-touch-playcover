@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "frida_touch_playcover"
+version = "0.1.0"
+description = ""
+authors = ["k0tayan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+frida-tools = "^12.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
